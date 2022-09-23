@@ -1,24 +1,4 @@
-# README
+Reproduction for https://github.com/bensheldon/good_job/issues/516
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- `bin/rails s`
+- Visit http://localhost:3000/jobs to start GoodJob by initializing ActiveRecord and ActiveJob (in a real app it's likely these would be alrady autoloaded, but this just kicks it)
